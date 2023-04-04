@@ -7,9 +7,7 @@ body:
       id: area
       attributes:
         label: Area
-        description: |
-            What part of the project does this apply to? Can be skipped outside
-            of the monorepo.
+        description: What part of the project does this apply to? Can be skipped outside of the monorepo.
         placeholder: Server, client, shared, lokui, etc.
     - type: textarea
       id: description
@@ -23,9 +21,7 @@ body:
       id: reproduction
       attributes:
           label: Minimal reproduction
-          description: |
-              The bare minimum needed to trigger the problem. May be a code
-              sample or a step-by-step guide depending on the context.
+          description: The bare minimum needed to trigger the problem. May be a code sample or a step-by-step guide depending on the context.
           placeholder: |
               1. First, do this.
               2. Then do this.

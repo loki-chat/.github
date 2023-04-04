@@ -7,9 +7,7 @@ body:
       id: area
       attributes:
         label: Area
-        description: |
-            What part of the project does this apply to? Can be skipped outside
-            of the monorepo.
+        description: What part of the project does this apply to? Can be skipped outside of the monorepo.
         placeholder: Server, client, shared, lokui, etc.
     - type: textarea
       id: problem
