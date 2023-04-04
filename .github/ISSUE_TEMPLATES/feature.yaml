@@ -13,7 +13,7 @@ body:
       id: problem
       attributes:
           label: Problem
-          description: A clear and concise explanation the current problem.
+          description: A clear and concise explanation of the current problem.
           placeholder: As an X, I want to Y so that Z.
       validations:
           required: true
