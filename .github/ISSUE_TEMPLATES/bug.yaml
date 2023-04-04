@@ -1,0 +1,52 @@
+name: Bug report
+description: File a bug report
+title: "bug: "
+labels: ["bug"]
+body:
+    - type: input
+      id: area
+      attributes:
+        label: Area
+        description: What part of the project does this apply to? Can be skipped outside of the monorepo.
+        placeholder: Server, client, shared, lokui, etc.
+    - type: textarea
+      id: description
+      attributes:
+          label: Description
+          description: A clear and concise explanation of what happened.
+          placeholder: Sometimes this happens and it's not supposed to...
+      validations:
+          required: true
+    - type: textarea
+      id: reproduction
+      attributes:
+          label: Minimal reproduction
+          description: The bare minimum needed to trigger the problem. May be a code sample or a step-by-step guide depending on the context.
+          placeholder: |
+              1. First, do this.
+              2. Then do this.
+              3. Finally, do this.
+      validations:
+          required: true
+    - type: textarea
+      id: expected-behavior
+      attributes:
+          label: Expected behavior
+          description: What did you expect to happen?
+          placeholder: I would actually expect this to happen...
+      validations:
+          required: true
+    - type: textarea
+      id: additional-info
+      attributes:
+          label: Additional information
+          description: Additional information that may be useful.
+    - type: checkboxes
+      id: checks
+      attributes:
+          label: Checks
+          options:
+              - label: |
+                    I have checked for existing issues about this, and did not
+                    find any.
+                required: true

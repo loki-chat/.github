@@ -1,0 +1,27 @@
+name: Minor issue
+description: |
+    Stuff like typos and other grammar. Feel free to just go ahead and fix this,
+    no issue needed.
+labels: ["feature"]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              # Hey!
+
+              You probably don't need to create an issue for this. It's faster
+              and easier to just go ahead and fix it!
+    - type: textarea
+      id: additional-info
+      attributes:
+          label: Additional information
+          description: Additional information that may be useful.
+    - type: checkboxes
+      id: checks
+      attributes:
+          label: Checks
+          options:
+              - label: |
+                    I have checked for existing issues about this, and did not
+                    find any.
+                required: true

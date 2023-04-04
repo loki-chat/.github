@@ -1,0 +1,47 @@
+name: Feature
+description: Discuss the addition of a feature
+title: "feat: "
+labels: ["feature"]
+body:
+    - type: input
+      id: area
+      attributes:
+        label: Area
+        description: What part of the project does this apply to? Can be skipped outside of the monorepo.
+        placeholder: Server, client, shared, lokui, etc.
+    - type: textarea
+      id: problem
+      attributes:
+          label: Problem
+          description: A clear and concise explanation of the current problem.
+          placeholder: As an X, I want to Y so that Z.
+      validations:
+          required: true
+    - type: textarea
+      id: solution
+      attributes:
+          label: Suggested solution
+          description: What you think could be done to solve the problem.
+          placeholder: I think we could do this...
+      validations:
+          required: true
+    - type: textarea
+      id: alternatives
+      attributes:
+          label: Alternatives
+          description: What other solutions have you considered?
+          placeholder: We could also do this, but here's why I don't prefer it.
+    - type: textarea
+      id: additional-info
+      attributes:
+          label: Additional information
+          description: Additional information that may be useful.
+    - type: checkboxes
+      id: checks
+      attributes:
+          label: Checks
+          options:
+              - label: |
+                    I have checked for existing issues about this, and did not
+                    find any.
+                required: true
