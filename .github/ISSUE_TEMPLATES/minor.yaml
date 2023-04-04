@@ -2,7 +2,6 @@ name: Minor issue
 description: |
     Stuff like typos and other grammar. Feel free to just go ahead and fix this,
     no issue needed.
-title: ""
 labels: ["feature"]
 body:
     - type: markdown
