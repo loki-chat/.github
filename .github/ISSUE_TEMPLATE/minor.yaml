@@ -9,8 +9,7 @@ body:
           value: |
               # Hey!
 
-              You probably don't need to create an issue for this. It's faster
-              and easier to just go ahead and fix it!
+              You probably don't need to create an issue for this. It's faster and easier to just go ahead and fix it!
     - type: textarea
       id: additional-info
       attributes:
